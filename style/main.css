@@ -1,0 +1,72 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+.card {
+    width: 420px;
+    margin-top: 60px;
+    margin-left: 60px;
+    padding: 20px 40px 50px;
+    border: 1px solid #DBB9B9;
+    text-align: center;
+}
+.card-img {
+    margin-bottom: 30px;
+}
+.card-title {
+    color: #CD2626;
+    font-size: 2.2em;
+    font-weight: 700;
+    line-height: 39px;
+    margin-bottom: 30px;
+}
+.card-description {
+    font-size: 14px;
+    line-height: 150%;
+    padding: 0 5px;
+    margin-bottom: 30px;
+}
+.card-description a {
+    color: #BD3030;
+    text-decoration: underline;
+    line-height: 1.5em;
+}
+.price {
+    font-size: 1.8em;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.price span {
+    font-weight: 700;
+}
+.card-btn {
+    width: 207px;
+    padding: 15px 42px 16px;
+    background-color: #CD2626;
+    border: 1px solid #CD2626;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 27px;
+
+    transition:
+           background-color 0.2s ease-in ,
+           color 0.2s ease-in,
+           border 0.2s ease-in;
+
+}
+.card-btn:hover, .card-btn:focus {
+    background-color: #E41919;
+    border: 1px solid #E41919;
+}
+.card-btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #8E1010;
+    border: 1px solid #8E1010;
+}
